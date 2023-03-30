@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_display"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".activity.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="17dp"
+        android:text="TESTE DE COVID"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+
+    <LinearLayout
+        android:id="@+id/register_data"
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/shape_register_data"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp"
+        android:paddingTop="30dp">
+
+        <EditText
+            android:id="@+id/editNome"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:hint="Digite seu nome"
+            android:textColor="@android:color/white"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/editIdade"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:hint="Digite sua idade"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+
+        <EditText
+            android:id="@+id/editTosse"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:hint="Dias com tosse"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/editTemperatura"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:hint="Temperatura corporal"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/editDorCabeca"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:hint="Dias com dor de cabeça"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="261dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5.1dp"
+                android:text="País ido nas últimas 6 semanas"
+                android:textColor="@color/color_text"
+                android:textSize="18dp" />
+
+            <Spinner
+                android:id="@+id/spinnerPais"
+                android:layout_width="30dp"
+                android:layout_height="10dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+
+    <Button
+        android:id="@+id/status_button"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_register_data"
+
+        android:text="STATUS" />
+
+</LinearLayout>
