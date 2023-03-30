@@ -21,3 +21,7 @@ Recursos:
     Indicar se um paciente em específico deve ser tratado,
     posto em quarentena ou liberado
     Interface simples e intuitiva para fácil navegação e uso.
+
+OBS: 
+
+    O APK de instalação do aplicativo está escrito como "Pandemia.apk" dentro da fila do repositorio.
