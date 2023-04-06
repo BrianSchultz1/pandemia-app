@@ -2,7 +2,7 @@
 
 Introdução
 
-Este é um aplicativo para dispositivos móveis, desenvolvido com Java, SQLite e Android SDK. Com uma interface simples e intuitiva, o objetivo é ajudar os usuários a monitorar os sintomas do COVID-19.
+Este é um aplicativo para dispositivos móveis, desenvolvido com Java, SQLite e Android SDK. Com uma interface simples e intuitiva, o objetivo é ajudar os usuários a monitorar os sintomas do COVID-19. 
 
 Status:
 
